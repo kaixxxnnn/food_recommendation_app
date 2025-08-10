@@ -1,0 +1,201 @@
+user_id,age,user_type,cooking_skill,preferred_cuisines,dietary_restrictions,max_prep_time,preferred_difficulty,health_conscious,adventurous_score
+1,67,comfort_seeker,Intermediate,"['American', 'Italian', 'Japanese']",[],60,Easy,0.5,0.3751629742938901
+2,59,adventurous,Intermediate,"['Korean', 'Indian', 'Chinese', 'Malaysian', 'American', 'Japanese', 'Thai']",[],60,Medium,0.5,0.7892629957650134
+3,50,health_conscious,Intermediate,"['Japanese', 'Thai']","['low-calorie', 'high-protein']",60,Medium,0.8211738255114461,0.5
+4,42,health_conscious,Expert,"['Thai', 'Japanese', 'Italian', 'American']","['vegetarian', 'low-calorie']",60,Medium,0.8000319138508343,0.5
+5,41,health_conscious,Intermediate,"['Japanese', 'Thai', 'Italian']","['vegetarian', 'low-calorie']",60,Medium,0.9281359242644341,0.5
+6,20,cooking_enthusiast,Expert,"['Thai', 'American', 'Italian', 'Chinese', 'Indian']",[],79,Hard,0.5,0.8087646835821227
+7,65,busy_professional,Beginner,"['Malaysian', 'American', 'Japanese']",[],16,Easy,0.5,0.4
+8,42,busy_professional,Beginner,"['Chinese', 'American']",[],24,Easy,0.5,0.5
+9,39,health_conscious,Beginner,"['Japanese', 'Thai']",['low-calorie'],45,Easy,0.7354561326168734,0.5
+10,20,health_conscious,Intermediate,"['Japanese', 'Chinese']","['high-protein', 'vegetarian']",60,Medium,0.8413658907424931,0.5
+11,18,adventurous,Beginner,"['Chinese', 'American', 'Japanese', 'Malaysian', 'Italian']",[],45,Easy,0.5,0.8099915994773245
+12,25,health_conscious,Intermediate,"['Thai', 'Japanese']",['vegetarian'],60,Medium,0.9413360592781926,0.5
+13,25,comfort_seeker,Expert,"['American', 'Italian', 'Korean']",[],60,Medium,0.5,0.3727901031357455
+14,38,adventurous,Intermediate,"['Indian', 'Malaysian', 'Italian', 'Thai']",[],60,Medium,0.5,0.95862033398931
+15,27,comfort_seeker,Intermediate,"['American', 'Italian', 'Malaysian']",[],60,Easy,0.5,0.25041525594062164
+16,53,comfort_seeker,Beginner,"['American', 'Italian', 'Korean']",[],45,Easy,0.5,0.21847470627845922
+17,20,cooking_enthusiast,Beginner,"['Italian', 'American', 'Malaysian', 'Korean']",[],45,Easy,0.5,0.7837324515941688
+18,18,health_conscious,Beginner,"['Thai', 'Japanese']",['high-protein'],45,Easy,0.8955267375567493,0.5
+19,31,adventurous,Beginner,"['Korean', 'Chinese', 'Malaysian', 'Japanese', 'Italian']",[],45,Easy,0.5,0.8541899495170815
+20,29,cooking_enthusiast,Intermediate,"['Thai', 'American', 'Italian', 'Japanese', 'Indian']",[],65,Hard,0.5,0.7881574962135037
+21,30,adventurous,Beginner,"['Thai', 'Korean', 'Japanese', 'Malaysian', 'Italian']",[],45,Easy,0.5,0.9060398041856162
+22,47,adventurous,Intermediate,"['Italian', 'Chinese', 'Malaysian', 'Korean', 'American', 'Thai']",[],60,Medium,0.5,0.9318654316784571
+23,29,busy_professional,Beginner,"['Chinese', 'Malaysian', 'Korean']",[],16,Easy,0.5,0.5
+24,45,adventurous,Beginner,"['Italian', 'Malaysian', 'Thai', 'Korean', 'Chinese', 'Indian']",[],45,Easy,0.5,0.9233638700919653
+25,68,adventurous,Beginner,"['American', 'Thai', 'Malaysian', 'Japanese', 'Chinese']",[],45,Easy,0.5,0.7223845948172393
+26,38,cooking_enthusiast,Intermediate,"['Thai', 'Chinese', 'Italian']",[],117,Hard,0.5,0.6977054876761062
+27,65,adventurous,Intermediate,"['Chinese', 'American', 'Japanese', 'Korean', 'Malaysian', 'Italian']",[],60,Medium,0.5,0.6719929330057293
+28,27,busy_professional,Beginner,"['Chinese', 'American', 'Italian']",[],29,Easy,0.5,0.5
+29,64,busy_professional,Beginner,"['American', 'Chinese']",[],26,Easy,0.5,0.4
+30,20,adventurous,Intermediate,"['Chinese', 'Korean', 'American', 'Thai', 'Malaysian']",[],60,Medium,0.5,0.8119303439268533
+31,32,comfort_seeker,Intermediate,"['American', 'Italian', 'Japanese', 'Korean']",[],60,Easy,0.5,0.38109079485413755
+32,28,cooking_enthusiast,Intermediate,"['Malaysian', 'Korean', 'Chinese', 'Japanese', 'American']",[],74,Hard,0.5,0.6259422996901635
+33,35,busy_professional,Beginner,"['American', 'Malaysian']",[],28,Easy,0.5,0.5
+34,45,comfort_seeker,Intermediate,"['American', 'Italian']",[],60,Easy,0.5,0.4675467884409718
+35,27,cooking_enthusiast,Expert,"['Malaysian', 'Thai', 'Japanese']",[],86,Hard,0.5,0.8940552123879437
+36,45,health_conscious,Intermediate,"['Japanese', 'Korean']","['high-protein', 'vegetarian']",60,Medium,0.835732410465073,0.5
+37,66,cooking_enthusiast,Beginner,"['Japanese', 'Chinese', 'Thai', 'Italian', 'American']",[],45,Easy,0.5,0.5323215564478254
+38,48,health_conscious,Intermediate,"['Thai', 'American']",['high-protein'],60,Medium,0.8377848510248708,0.5
+39,67,busy_professional,Beginner,"['Chinese', 'Malaysian', 'American']",[],27,Easy,0.5,0.4
+40,58,health_conscious,Beginner,"['Japanese', 'Thai', 'American', 'Korean']","['high-protein', 'vegetarian']",45,Easy,0.788976994363745,0.4
+41,39,cooking_enthusiast,Intermediate,"['Italian', 'Malaysian', 'American', 'Indian', 'Chinese', 'Japanese']",[],120,Medium,0.5,0.8730012342512301
+42,57,busy_professional,Beginner,"['Malaysian', 'American', 'Thai']",[],26,Easy,0.5,0.4
+43,63,cooking_enthusiast,Intermediate,"['Malaysian', 'Thai', 'Japanese', 'American']",[],81,Medium,0.5,0.5372718492859015
+44,66,adventurous,Intermediate,"['Japanese', 'Malaysian', 'Thai', 'American', 'Indian']",[],60,Medium,0.5,0.6760699562078284
+45,22,health_conscious,Beginner,"['Thai', 'Japanese']","['low-calorie', 'vegetarian']",45,Easy,0.8410491549443273,0.5
+46,30,health_conscious,Intermediate,"['Thai', 'Korean']","['vegetarian', 'high-protein']",60,Medium,0.8172047508462053,0.5
+47,24,health_conscious,Beginner,"['Japanese', 'American']",['high-protein'],45,Easy,0.744386212892075,0.5
+48,58,cooking_enthusiast,Beginner,"['Malaysian', 'Indian', 'American', 'Japanese']",[],45,Easy,0.5,0.609944389936426
+49,65,busy_professional,Intermediate,"['American', 'Malaysian', 'Italian']",[],24,Easy,0.5,0.4
+50,59,cooking_enthusiast,Beginner,"['Malaysian', 'Japanese', 'Thai', 'Korean', 'American']",[],45,Easy,0.5,0.6350522943499524
+51,46,cooking_enthusiast,Intermediate,"['Japanese', 'Chinese', 'American', 'Indian']",[],117,Hard,0.5,0.836804478555534
+52,36,comfort_seeker,Intermediate,"['American', 'Italian']",[],60,Easy,0.5,0.21419568094984814
+53,36,comfort_seeker,Intermediate,"['American', 'Italian', 'Chinese', 'Thai', 'Korean']",[],60,Easy,0.5,0.2499089217602392
+54,63,adventurous,Intermediate,"['Indian', 'Chinese', 'Korean', 'Italian', 'Malaysian', 'American', 'Thai']",[],60,Medium,0.5,0.669164881674297
+55,54,comfort_seeker,Beginner,"['American', 'Italian', 'Indian', 'Thai', 'Korean']",[],45,Easy,0.5,0.22249772733987358
+56,31,adventurous,Intermediate,"['Thai', 'Chinese', 'Indian', 'American', 'Korean', 'Malaysian']",[],60,Medium,0.5,0.8069378177308341
+57,19,health_conscious,Intermediate,"['Japanese', 'Italian', 'Chinese']","['vegetarian', 'low-calorie']",60,Medium,0.9783433869187934,0.5
+58,50,cooking_enthusiast,Beginner,"['Indian', 'Korean', 'Japanese', 'American', 'Malaysian']",[],45,Easy,0.5,0.8687932363670181
+59,64,health_conscious,Intermediate,"['Thai', 'American', 'Italian', 'Korean']",['vegetarian'],60,Medium,0.9034025010860562,0.4
+60,43,health_conscious,Intermediate,"['Japanese', 'Thai', 'Malaysian']",['low-calorie'],60,Medium,0.8072180645744825,0.5
+61,51,cooking_enthusiast,Beginner,"['Malaysian', 'Thai', 'Korean', 'American', 'Indian']",[],45,Easy,0.5,0.526971761624602
+62,50,health_conscious,Beginner,"['Thai', 'Japanese', 'American']","['low-calorie', 'vegetarian']",45,Easy,0.9725340850653492,0.5
+63,41,busy_professional,Beginner,"['Chinese', 'Malaysian', 'Indian']",[],15,Easy,0.5,0.5
+64,53,busy_professional,Beginner,"['Chinese', 'Malaysian', 'American', 'Japanese']",[],29,Easy,0.5,0.4
+65,28,comfort_seeker,Intermediate,"['American', 'Italian', 'Japanese', 'Malaysian']",[],60,Easy,0.5,0.4911082019606015
+66,64,busy_professional,Intermediate,"['Malaysian', 'American']",[],19,Medium,0.5,0.4
+67,31,adventurous,Beginner,"['Thai', 'Italian', 'Japanese', 'American', 'Korean', 'Malaysian']",[],45,Easy,0.5,0.9976764855794993
+68,58,busy_professional,Expert,"['Chinese', 'American', 'Korean']",[],28,Medium,0.5,0.4
+69,29,adventurous,Intermediate,"['Italian', 'Korean', 'Indian', 'Japanese', 'Thai', 'Malaysian', 'Chinese']",[],60,Medium,0.5,0.8578926333097621
+70,32,busy_professional,Beginner,"['Chinese', 'Malaysian']",[],15,Easy,0.5,0.5
+71,59,health_conscious,Intermediate,"['Japanese', 'American']","['low-calorie', 'vegetarian']",60,Medium,0.847565950990006,0.4
+72,66,health_conscious,Beginner,"['Thai', 'Japanese', 'American', 'Korean']",['high-protein'],45,Easy,0.9236696720758666,0.4
+73,62,busy_professional,Intermediate,"['Malaysian', 'American']",[],26,Easy,0.5,0.4
+74,28,comfort_seeker,Intermediate,"['American', 'Italian']",[],60,Easy,0.5,0.24384113621640455
+75,62,busy_professional,Beginner,"['Chinese', 'Malaysian', 'American']",[],20,Easy,0.5,0.4
+76,21,comfort_seeker,Beginner,"['American', 'Italian', 'Malaysian']",[],45,Easy,0.5,0.3588836989677247
+77,50,health_conscious,Beginner,['Thai'],['vegetarian'],45,Easy,0.8796287464036685,0.5
+78,70,comfort_seeker,Intermediate,"['American', 'Italian', 'Indian']",[],60,Easy,0.5,0.3519705294985872
+79,61,comfort_seeker,Intermediate,"['American', 'Italian', 'Japanese', 'Thai']",[],60,Easy,0.5,0.24700544255226867
+80,55,cooking_enthusiast,Beginner,"['Malaysian', 'American', 'Indian', 'Chinese', 'Italian']",[],45,Easy,0.5,0.6043609791065773
+81,31,health_conscious,Beginner,['Thai'],['vegetarian'],45,Easy,0.938532021411635,0.5
+82,22,busy_professional,Beginner,"['Chinese', 'Malaysian']",[],19,Easy,0.5,0.5
+83,62,comfort_seeker,Beginner,"['American', 'Italian']",[],45,Easy,0.5,0.35608928878653867
+84,51,cooking_enthusiast,Intermediate,"['Chinese', 'Malaysian', 'Korean', 'Thai', 'Japanese', 'American']",[],105,Medium,0.5,0.5531242222108118
+85,26,comfort_seeker,Beginner,"['American', 'Italian', 'Thai']",[],45,Easy,0.5,0.494332870271664
+86,62,busy_professional,Intermediate,"['Chinese', 'Malaysian', 'American']",[],18,Easy,0.5,0.4
+87,30,health_conscious,Beginner,"['Japanese', 'Thai', 'Italian']",['low-calorie'],45,Easy,0.7356766653996616,0.5
+88,60,comfort_seeker,Beginner,"['American', 'Italian', 'Thai', 'Korean']",[],45,Easy,0.5,0.18316086372561005
+89,56,health_conscious,Beginner,"['Japanese', 'American', 'Chinese']",['vegetarian'],45,Easy,0.9011801943589755,0.4
+90,65,adventurous,Expert,"['Thai', 'Chinese', 'Japanese', 'Malaysian', 'Korean', 'American']",[],60,Medium,0.5,0.7918066568133252
+91,54,cooking_enthusiast,Beginner,"['American', 'Indian', 'Chinese', 'Malaysian']",[],45,Easy,0.5,0.48335623478085776
+92,18,cooking_enthusiast,Expert,"['Malaysian', 'Indian', 'Thai', 'Japanese', 'Chinese', 'American']",[],73,Medium,0.5,0.876143153393705
+93,61,busy_professional,Expert,"['Chinese', 'Malaysian', 'American', 'Indian', 'Japanese']",[],20,Medium,0.5,0.4
+94,50,adventurous,Beginner,"['Chinese', 'American', 'Italian', 'Japanese', 'Malaysian', 'Korean']",[],45,Easy,0.5,0.8225690957328818
+95,66,busy_professional,Beginner,"['American', 'Malaysian', 'Korean']",[],24,Easy,0.5,0.4
+96,49,comfort_seeker,Beginner,"['American', 'Italian']",[],45,Easy,0.5,0.28508343277188936
+97,65,cooking_enthusiast,Beginner,"['Japanese', 'Korean', 'American', 'Chinese']",[],45,Easy,0.5,0.5342096231351778
+98,69,health_conscious,Intermediate,"['Japanese', 'Thai', 'American', 'Italian', 'Malaysian']","['vegetarian', 'high-protein']",60,Medium,0.9996169977057552,0.4
+99,51,busy_professional,Intermediate,"['Chinese', 'Malaysian', 'American']",[],17,Easy,0.5,0.4
+100,24,cooking_enthusiast,Intermediate,"['Thai', 'Chinese', 'Japanese']",[],70,Hard,0.5,0.619413123347707
+101,25,busy_professional,Beginner,"['Chinese', 'Malaysian', 'Japanese']",[],28,Easy,0.5,0.5
+102,40,busy_professional,Intermediate,"['Malaysian', 'Chinese', 'Thai']",[],27,Medium,0.5,0.5
+103,67,adventurous,Intermediate,"['Malaysian', 'Chinese', 'Thai', 'Korean', 'Italian', 'American']",[],60,Medium,0.5,0.6595504096158623
+104,65,health_conscious,Beginner,"['Thai', 'American', 'Italian', 'Indian']",['low-calorie'],45,Easy,0.9034322322012831,0.4
+105,61,cooking_enthusiast,Beginner,"['Malaysian', 'Korean', 'American', 'Chinese']",[],45,Easy,0.5,0.5031200708630766
+106,36,adventurous,Intermediate,"['Thai', 'Korean', 'Japanese', 'Malaysian', 'Italian']",[],60,Medium,0.5,0.8980500720512788
+107,45,health_conscious,Intermediate,"['Thai', 'Japanese']",['low-calorie'],60,Medium,0.8350346557376367,0.5
+108,20,health_conscious,Beginner,"['Thai', 'Chinese', 'Indian', 'Korean']","['high-protein', 'vegetarian']",45,Easy,0.8474438825935449,0.5
+109,49,busy_professional,Intermediate,"['Malaysian', 'Chinese']",[],30,Easy,0.5,0.5
+110,53,busy_professional,Intermediate,"['Chinese', 'Malaysian', 'American']",[],16,Easy,0.5,0.4
+111,61,cooking_enthusiast,Beginner,"['Italian', 'Chinese', 'Indian', 'Thai', 'Malaysian', 'American']",[],45,Easy,0.5,0.4947417533900982
+112,42,comfort_seeker,Beginner,"['American', 'Italian', 'Chinese', 'Korean']",[],45,Easy,0.5,0.3035429082630847
+113,44,comfort_seeker,Beginner,"['American', 'Italian', 'Chinese']",[],45,Easy,0.5,0.3983720017468085
+114,33,adventurous,Intermediate,"['Chinese', 'Korean', 'Indian', 'Italian', 'Thai', 'Japanese', 'Malaysian', 'American']",[],60,Medium,0.5,0.9185063333584991
+115,20,comfort_seeker,Intermediate,"['American', 'Italian']",[],60,Easy,0.5,0.4590105565394603
+116,50,cooking_enthusiast,Expert,"['Thai', 'American', 'Japanese', 'Indian']",[],104,Medium,0.5,0.7409099703758715
+117,38,busy_professional,Intermediate,"['Malaysian', 'American']",[],30,Easy,0.5,0.5
+118,49,comfort_seeker,Intermediate,"['American', 'Italian', 'Chinese', 'Indian', 'Japanese', 'Korean']",[],60,Easy,0.5,0.4294711701588054
+119,28,comfort_seeker,Intermediate,"['American', 'Italian', 'Thai']",[],60,Easy,0.5,0.30900029160699494
+120,30,busy_professional,Intermediate,"['Malaysian', 'American', 'Italian', 'Japanese']",[],17,Medium,0.5,0.5
+121,34,comfort_seeker,Beginner,"['American', 'Italian', 'Korean']",[],45,Easy,0.5,0.4988683080081359
+122,69,busy_professional,Beginner,"['Malaysian', 'American', 'Chinese']",[],17,Easy,0.5,0.4
+123,39,cooking_enthusiast,Beginner,"['Thai', 'Korean', 'Italian', 'Japanese']",[],45,Easy,0.5,0.742580510140447
+124,50,comfort_seeker,Intermediate,"['American', 'Italian']",[],60,Easy,0.5,0.32987314536450063
+125,38,cooking_enthusiast,Beginner,"['Indian', 'Italian', 'Thai', 'Japanese', 'Chinese']",[],45,Easy,0.5,0.7546107697186513
+126,49,cooking_enthusiast,Beginner,"['Korean', 'Japanese', 'Thai', 'Italian', 'American', 'Malaysian']",[],45,Easy,0.5,0.8814308981611475
+127,30,cooking_enthusiast,Beginner,"['Korean', 'American', 'Indian', 'Italian', 'Chinese', 'Japanese', 'Malaysian']",[],45,Easy,0.5,0.823930054944694
+128,44,adventurous,Beginner,"['Japanese', 'Thai', 'Malaysian', 'Chinese']",[],45,Easy,0.5,0.8574089194030206
+129,33,busy_professional,Beginner,"['Chinese', 'Malaysian', 'Japanese', 'Thai', 'Korean']",[],21,Easy,0.5,0.5
+130,53,busy_professional,Expert,"['American', 'Malaysian', 'Indian']",[],28,Medium,0.5,0.4
+131,35,adventurous,Beginner,"['Indian', 'Thai', 'Italian', 'American', 'Korean', 'Malaysian']",[],45,Easy,0.5,0.8516793694938269
+132,38,health_conscious,Intermediate,['Thai'],['low-calorie'],60,Medium,0.9690319732504358,0.5
+133,33,adventurous,Beginner,"['Japanese', 'American', 'Italian', 'Chinese', 'Malaysian']",[],45,Easy,0.5,0.9468960814181693
+134,39,comfort_seeker,Intermediate,"['American', 'Italian', 'Thai']",[],60,Easy,0.5,0.4211709061040372
+135,45,adventurous,Beginner,"['Japanese', 'American', 'Korean', 'Indian', 'Chinese']",[],45,Easy,0.5,0.8213628026472841
+136,49,health_conscious,Intermediate,"['Japanese', 'Thai', 'Italian']",['low-calorie'],60,Medium,0.8637235099608778,0.5
+137,41,adventurous,Intermediate,"['Italian', 'Thai', 'Japanese', 'Malaysian', 'Korean']",[],60,Medium,0.5,0.8735478577336153
+138,34,adventurous,Intermediate,"['Thai', 'Korean', 'Malaysian', 'Italian', 'Chinese', 'American']",[],60,Medium,0.5,0.8618537003382282
+139,18,busy_professional,Expert,"['Chinese', 'Malaysian', 'American', 'Thai']",[],27,Medium,0.5,0.5
+140,70,health_conscious,Intermediate,"['Thai', 'Japanese', 'American']","['vegetarian', 'high-protein']",60,Medium,0.9747672403727006,0.4
+141,23,comfort_seeker,Intermediate,"['American', 'Italian', 'Indian', 'Japanese', 'Korean']",[],60,Easy,0.5,0.48214862605562475
+142,65,busy_professional,Intermediate,"['American', 'Malaysian', 'Japanese']",[],25,Easy,0.5,0.4
+143,50,comfort_seeker,Beginner,"['American', 'Italian', 'Thai']",[],45,Easy,0.5,0.32626115963335917
+144,65,cooking_enthusiast,Beginner,"['Indian', 'Thai', 'American', 'Chinese', 'Italian']",[],45,Easy,0.5,0.4925037174964657
+145,30,busy_professional,Intermediate,"['American', 'Malaysian']",[],25,Easy,0.5,0.5
+146,51,adventurous,Intermediate,"['Indian', 'Korean', 'Japanese', 'American', 'Malaysian', 'Chinese']",[],60,Medium,0.5,0.762817177570607
+147,65,busy_professional,Beginner,"['Chinese', 'Malaysian', 'American', 'Italian']",[],20,Easy,0.5,0.4
+148,23,adventurous,Intermediate,"['American', 'Italian', 'Korean', 'Japanese', 'Chinese', 'Malaysian']",[],60,Medium,0.5,0.8363778507612559
+149,30,busy_professional,Beginner,"['Malaysian', 'Chinese', 'Indian']",[],20,Easy,0.5,0.5
+150,34,cooking_enthusiast,Beginner,"['Italian', 'Thai', 'Japanese', 'Malaysian']",[],45,Easy,0.5,0.884173052535749
+151,67,busy_professional,Expert,"['Chinese', 'American', 'Japanese', 'Thai']",[],29,Medium,0.5,0.4
+152,63,adventurous,Beginner,"['Japanese', 'Thai', 'American', 'Korean', 'Chinese', 'Malaysian', 'Indian']",[],45,Easy,0.5,0.791368372275754
+153,56,adventurous,Beginner,"['American', 'Malaysian', 'Chinese', 'Korean', 'Thai', 'Italian', 'Indian']",[],45,Easy,0.5,0.7718542221581546
+154,34,comfort_seeker,Beginner,"['American', 'Italian', 'Thai', 'Malaysian']",[],45,Easy,0.5,0.3352930074348932
+155,41,adventurous,Intermediate,"['Italian', 'American', 'Chinese', 'Indian', 'Thai', 'Korean']",[],60,Medium,0.5,0.9294471136602225
+156,61,busy_professional,Beginner,"['Malaysian', 'Chinese', 'American', 'Indian']",[],27,Easy,0.5,0.4
+157,24,health_conscious,Intermediate,"['Thai', 'Japanese', 'Italian', 'Indian']",['low-calorie'],60,Medium,0.9793193822387787,0.5
+158,34,health_conscious,Intermediate,['Japanese'],"['low-calorie', 'high-protein']",60,Medium,0.9013786063437936,0.5
+159,29,cooking_enthusiast,Beginner,"['Indian', 'Italian', 'Malaysian', 'Japanese', 'Chinese', 'Korean']",[],45,Easy,0.5,0.7017530207586961
+160,27,busy_professional,Beginner,"['American', 'Chinese']",[],25,Easy,0.5,0.5
+161,65,comfort_seeker,Beginner,"['American', 'Italian', 'Korean']",[],45,Easy,0.5,0.2632206445031026
+162,57,comfort_seeker,Intermediate,"['American', 'Italian', 'Indian', 'Thai']",[],60,Easy,0.5,0.3824120514340841
+163,38,cooking_enthusiast,Intermediate,"['Malaysian', 'Italian', 'Chinese', 'Indian']",[],107,Medium,0.5,0.8983695197655441
+164,21,adventurous,Beginner,"['Indian', 'Thai', 'American', 'Korean', 'Italian']",[],45,Easy,0.5,0.807172449633848
+165,20,busy_professional,Intermediate,"['American', 'Malaysian', 'Thai']",[],30,Easy,0.5,0.5
+166,40,health_conscious,Beginner,"['Japanese', 'Thai', 'Indian']","['vegetarian', 'high-protein']",45,Easy,0.9249809954510728,0.5
+167,67,cooking_enthusiast,Intermediate,"['Chinese', 'Indian', 'Italian', 'Korean', 'American', 'Thai', 'Malaysian']",[],64,Hard,0.5,0.539077784600711
+168,43,health_conscious,Beginner,['Thai'],['low-calorie'],45,Easy,0.7461326406051393,0.5
+169,47,busy_professional,Intermediate,"['American', 'Chinese', 'Japanese']",[],23,Easy,0.5,0.5
+170,59,health_conscious,Intermediate,"['Thai', 'American', 'Italian', 'Indian', 'Japanese']","['low-calorie', 'vegetarian']",60,Medium,0.7634100583119963,0.4
+171,69,comfort_seeker,Beginner,"['American', 'Italian', 'Chinese']",[],45,Easy,0.5,0.17697378137199204
+172,42,cooking_enthusiast,Beginner,"['Chinese', 'Italian', 'Malaysian', 'Thai']",[],45,Easy,0.5,0.889514792943472
+173,67,busy_professional,Intermediate,"['Chinese', 'Malaysian', 'American', 'Japanese']",[],19,Easy,0.5,0.4
+174,61,comfort_seeker,Intermediate,"['American', 'Italian', 'Malaysian']",[],60,Easy,0.5,0.24617062210831697
+175,41,health_conscious,Intermediate,"['Japanese', 'Thai', 'American', 'Malaysian']","['low-calorie', 'high-protein']",60,Medium,0.8429319059889303,0.5
+176,57,comfort_seeker,Beginner,"['American', 'Italian', 'Chinese', 'Japanese', 'Malaysian']",[],45,Easy,0.5,0.31136470155599794
+177,20,health_conscious,Intermediate,"['Thai', 'Italian']","['high-protein', 'vegetarian']",60,Medium,0.8942831851979416,0.5
+178,58,cooking_enthusiast,Intermediate,"['Japanese', 'Chinese', 'Korean', 'Indian', 'American']",[],89,Medium,0.5,0.584965324543446
+179,51,adventurous,Intermediate,"['Chinese', 'Italian', 'Japanese', 'Korean', 'American', 'Malaysian']",[],60,Medium,0.5,0.7309657097431759
+180,47,health_conscious,Intermediate,"['Japanese', 'Italian']","['low-calorie', 'high-protein']",60,Medium,0.8756703654269193,0.5
+181,29,busy_professional,Intermediate,"['Chinese', 'Malaysian', 'American', 'Thai']",[],27,Easy,0.5,0.5
+182,55,comfort_seeker,Intermediate,"['American', 'Italian', 'Malaysian']",[],60,Easy,0.5,0.34176502347635007
+183,57,busy_professional,Intermediate,"['American', 'Malaysian', 'Chinese']",[],25,Medium,0.5,0.4
+184,23,adventurous,Intermediate,"['Chinese', 'American', 'Japanese', 'Italian', 'Thai', 'Malaysian']",[],60,Medium,0.5,0.9208105746795501
+185,18,health_conscious,Beginner,"['Thai', 'Japanese', 'Indian']","['low-calorie', 'high-protein']",45,Easy,0.9606341562965148,0.5
+186,69,busy_professional,Beginner,"['American', 'Malaysian', 'Italian', 'Indian']",[],19,Easy,0.5,0.4
+187,62,health_conscious,Expert,"['Japanese', 'American']",['vegetarian'],60,Medium,0.8443351581289393,0.4
+188,58,busy_professional,Intermediate,"['Chinese', 'American', 'Thai', 'Korean']",[],21,Easy,0.5,0.4
+189,45,busy_professional,Beginner,"['Malaysian', 'Chinese', 'Indian', 'Korean']",[],20,Easy,0.5,0.5
+190,48,busy_professional,Beginner,"['American', 'Chinese', 'Italian', 'Thai']",[],29,Easy,0.5,0.5
+191,43,cooking_enthusiast,Beginner,"['Korean', 'Malaysian', 'American', 'Japanese', 'Chinese']",[],45,Easy,0.5,0.8542888590241062
+192,64,cooking_enthusiast,Intermediate,"['Malaysian', 'Chinese', 'Thai', 'Italian', 'Japanese', 'American', 'Korean']",[],91,Medium,0.5,0.5759232893337625
+193,54,busy_professional,Beginner,"['Malaysian', 'Chinese', 'American']",[],17,Easy,0.5,0.4
+194,25,busy_professional,Intermediate,"['Chinese', 'American']",[],26,Easy,0.5,0.5
+195,36,adventurous,Intermediate,"['American', 'Japanese', 'Chinese', 'Korean', 'Indian']",[],60,Medium,0.5,0.893848087405931
+196,26,busy_professional,Intermediate,"['Malaysian', 'Chinese']",[],27,Medium,0.5,0.5
+197,69,busy_professional,Expert,"['Chinese', 'American', 'Italian']",[],20,Medium,0.5,0.4
+198,26,busy_professional,Beginner,"['American', 'Chinese', 'Malaysian']",[],20,Easy,0.5,0.5
+199,37,busy_professional,Beginner,"['Chinese', 'Malaysian', 'Italian', 'Japanese']",[],16,Easy,0.5,0.5
+200,61,comfort_seeker,Beginner,"['American', 'Italian', 'Japanese']",[],45,Easy,0.5,0.358707685219279

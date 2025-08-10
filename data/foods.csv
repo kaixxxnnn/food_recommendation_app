@@ -1,0 +1,401 @@
+food_id,name,cuisine,category,ingredients,prep_time,difficulty,calories,dietary_tags,flavor_profile,popularity_score
+1,Xiaolongbao,Chinese,Breakfast,"['flour', 'pork', 'soup', 'ginger']",30,Easy,312,['dairy-free'],"['savory', 'umami']",1.1061438787354545
+2,Spinach Artichoke Dip,American,Appetizer,"['spinach', 'artichokes', 'cream cheese', 'parmesan']",47,Easy,297,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",2.4359175219385136
+3,Spicy Shrimp Salad,Thai,Appetizer,"['shrimp', 'lime juice', 'chili', 'coriander']",37,Medium,230,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",3.309408581027048
+4,Youtiao,Chinese,Breakfast,"['flour', 'oil', 'salt']",49,Easy,348,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",1.8380281230859508
+5,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",47,Easy,258,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.220183203084858
+6,Samgyeopsal (Grilled Pork Belly),Korean,Dinner,"['pork belly', 'lettuce', 'ssamjang']",30,Hard,520,"['dairy-free', 'gluten-free']",['savory'],3.9799559283664263
+7,Agedashi Tofu,Japanese,Appetizer,"['tofu', 'dashi broth', 'tempura sauce']",20,Medium,250,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.688639867198736
+8,Mango Pudding,Chinese,Dessert,"['mango', 'gelatin', 'milk', 'sugar']",44,Hard,340,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.4462086943835057
+9,Bibimbap,Korean,Lunch,"['rice', 'mixed vegetables', 'egg', 'gochujang']",58,Easy,429,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.12141468878071
+10,Prosciutto e Melone,Italian,Appetizer,"['prosciutto', 'melon']",59,Easy,283,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],4.264093013680354
+11,Dal Tadka,Indian,Lunch,"['lentils', 'turmeric', 'cumin', 'garlic', 'tomato']",51,Medium,470,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.0841370400282355
+12,Spinach Artichoke Dip,American,Appetizer,"['spinach', 'artichokes', 'cream cheese', 'parmesan']",30,Medium,228,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",2.941657996601963
+13,Paneer Tikka,Indian,Appetizer,"['paneer', 'yogurt', 'spices', 'bell peppers']",56,Medium,250,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy']",1.3936714846078355
+14,Kimchi Jjigae (Kimchi Stew),Korean,Dinner,"['kimchi', 'tofu', 'pork', 'scallions']",55,Medium,533,"['dairy-free', 'gluten-free']","['savory', 'spicy', 'fermented']",4.445396419047322
+15,Xiaolongbao,Chinese,Breakfast,"['flour', 'pork', 'soup', 'ginger']",47,Hard,327,['dairy-free'],"['savory', 'umami']",2.060812232688608
+16,Fish Head Curry,Malaysian,Dinner,"['fish head', 'curry powder', 'coconut milk', 'okra', 'tomato', 'tamarind']",21,Hard,542,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sour']",2.9071540684357395
+17,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",35,Easy,268,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",1.9848613911544994
+18,Antipasto Platter,Italian,Appetizer,"['cured meats', 'cheeses', 'olives', 'artichokes']",54,Medium,275,"['vegetarian', 'gluten-free', 'halal']","['savory', 'cheesy']",2.199988319195049
+19,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",40,Easy,322,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",4.523456694745758
+20,BBQ Ribs,American,Dinner,"['pork ribs', 'bbq sauce', 'coleslaw']",22,Hard,563,"['dairy-free', 'gluten-free']",['savory'],2.0578636859485107
+21,Spicy Cucumber Salad,Chinese,Appetizer,"['cucumber', 'garlic', 'vinegar', 'chili oil']",43,Easy,279,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",2.6943030902549054
+22,Tamagoyaki,Japanese,Breakfast,"['eggs', 'mirin', 'soy sauce', 'sugar']",27,Medium,324,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",4.615714286239573
+23,Lasagna Bolognese,Italian,Dinner,"['pasta sheets', 'bolognese sauce', 'bechamel', 'parmesan']",41,Easy,560,['dairy-free'],['savory'],4.536538805804035
+24,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",20,Medium,256,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.679628517152787
+25,Grilled Salmon,American,Dinner,"['salmon', 'asparagus', 'lemon', 'herbs']",52,Medium,534,"['dairy-free', 'gluten-free', 'halal']",['savory'],2.2207634693544023
+26,Philly Cheesesteak,American,Lunch,"['beef', 'cheese', 'onions', 'hoagie roll']",29,Easy,476,"['gluten-free', 'halal']","['savory', 'cheesy']",4.9245987487930405
+27,Jok,Thai,Breakfast,"['rice porridge', 'pork', 'ginger', 'soy sauce']",56,Medium,285,"['dairy-free', 'gluten-free']",['savory'],4.93694339726636
+28,Sesame Balls,Chinese,Dessert,"['glutinous rice flour', 'red bean paste', 'sesame seeds']",57,Hard,389,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",3.653549905062177
+29,Whole Steamed Fish,Chinese,Dinner,"['fish', 'ginger', 'soy sauce', 'scallions']",51,Medium,545,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.6961093728397758
+30,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",20,Medium,377,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",4.604723303313017
+31,Masala Dosa,Indian,Breakfast,"['rice', 'lentils', 'potato', 'turmeric', 'curry leaves']",36,Easy,254,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.4450958922427204
+32,Sesame Balls,Chinese,Dessert,"['glutinous rice flour', 'red bean paste', 'sesame seeds']",41,Medium,372,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",1.4263491862541557
+33,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",33,Hard,457,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.6703109303454124
+34,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",45,Hard,303,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.8541794504442257
+35,Steak Dinner,American,Dinner,"['beef steak', 'potato', 'vegetables', 'butter']",39,Hard,562,"['gluten-free', 'halal']",['savory'],3.1704445620156614
+36,Banchan (Side Dishes),Korean,Breakfast,"['various vegetables', 'fermented']",39,Easy,265,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.152882270440926
+37,Cheesecake,American,Dessert,"['cream cheese', 'graham crackers', 'sugar']",46,Hard,356,['gluten-free'],"['savory', 'creamy', 'cheesy', 'sweet']",4.627715450347074
+38,Cappuccino e Brioche,Italian,Breakfast,"['coffee', 'milk', 'brioche', 'sugar']",41,Easy,285,"['vegetarian', 'gluten-free', 'halal']","['savory', 'sweet']",4.3276971406210905
+39,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",53,Medium,320,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.7974427294501316
+40,Prosciutto e Melone,Italian,Appetizer,"['prosciutto', 'melon']",48,Medium,233,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.9917026078211433
+41,Fried Rice,Chinese,Lunch,"['rice', 'eggs', 'scallions', 'soy sauce']",21,Medium,447,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.206330741950668
+42,Cold Noodles,Chinese,Appetizer,"['noodles', 'cucumber', 'peanut sauce', 'sesame oil']",35,Easy,241,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.7340936053033937
+43,Mango Sticky Rice,Thai,Dessert,"['mango', 'sticky rice', 'coconut milk', 'palm sugar']",41,Medium,375,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.975453756763824
+44,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",42,Medium,256,"['dairy-free', 'gluten-free', 'halal']",['savory'],2.1050743030247396
+45,Antipasto Platter,Italian,Appetizer,"['cured meats', 'cheeses', 'olives', 'artichokes']",35,Medium,208,"['vegetarian', 'gluten-free', 'halal']","['savory', 'cheesy']",2.6176045147117124
+46,Grilled Salmon,American,Dinner,"['salmon', 'asparagus', 'lemon', 'herbs']",46,Medium,578,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.971524254556416
+47,Dal Tadka,Indian,Lunch,"['lentils', 'turmeric', 'cumin', 'garlic', 'tomato']",36,Medium,452,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.8320739428441253
+48,Vegetable Korma,Indian,Dinner,"['mixed vegetables', 'coconut', 'cashews', 'spices']",53,Hard,546,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",2.877587779722041
+49,Fish Head Curry,Malaysian,Dinner,"['fish head', 'curry powder', 'coconut milk', 'okra', 'tomato', 'tamarind']",22,Medium,570,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sour']",4.24456830510019
+50,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",21,Medium,300,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.96035722193818
+51,Philly Cheesesteak,American,Lunch,"['beef', 'cheese', 'onions', 'hoagie roll']",50,Easy,407,"['gluten-free', 'halal']","['savory', 'cheesy']",1.1305594215236972
+52,Sukiyaki,Japanese,Dinner,"['beef', 'tofu', 'vegetables', 'sukiyaki sauce']",29,Hard,526,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.170514264929647
+53,Dorayaki,Japanese,Dessert,"['pancake', 'red bean paste', 'honey']",39,Easy,339,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.2892863334332
+54,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",55,Medium,349,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.8820032930065342
+55,Sambal Kangkung,Malaysian,Dinner,"['kangkung', 'belacan', 'chili', 'onion', 'tamarind']",20,Medium,567,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",2.981876083857351
+56,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",53,Medium,294,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",3.630641545932516
+57,Kuih Lapis,Malaysian,Dessert,"['rice flour', 'coconut milk', 'pandan', 'sugar']",54,Medium,329,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",3.793000116488689
+58,Youtiao,Chinese,Breakfast,"['flour', 'oil', 'salt']",44,Easy,330,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",3.8664133039671644
+59,Matcha Ice Cream,Japanese,Dessert,"['matcha powder', 'cream', 'sugar']",32,Medium,380,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.030950703238626
+60,Seafood Risotto,Italian,Dinner,"['arborio rice', 'mixed seafood', 'white wine', 'saffron']",27,Hard,500,"['dairy-free', 'gluten-free', 'halal']",['savory'],4.478406732936274
+61,Stuffed Mushrooms,American,Appetizer,"['mushrooms', 'cream cheese', 'herbs']",37,Easy,286,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",1.4014584086594093
+62,Roti Canai,Malaysian,Breakfast,"['flour', 'ghee', 'curry', 'dhal']",54,Medium,275,"['vegetarian', 'vegan', 'dairy-free', 'halal']",['savory'],2.5200375900906202
+63,Tub Tim Grob,Thai,Dessert,"['water chestnuts', 'coconut milk', 'tapioca', 'jackfruit']",46,Easy,304,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",2.774714206646823
+64,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",52,Easy,310,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.6799345962723895
+65,Scallion Pancakes,Chinese,Appetizer,"['flour', 'scallions', 'oil']",60,Medium,272,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",2.861013022101206
+66,Seaweed Salad,Japanese,Appetizer,"['seaweed', 'sesame oil', 'vinegar', 'cucumber']",43,Easy,278,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.4358366303089833
+67,Sashimi,Japanese,Dinner,"['fresh fish', 'wasabi', 'soy sauce', 'pickled ginger']",50,Hard,511,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",3.9806886165358804
+68,Bento Box,Japanese,Lunch,"['rice', 'fish', 'vegetables', 'pickles']",59,Medium,407,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.318295221473611
+69,Idli Sambar,Indian,Breakfast,"['rice', 'lentils', 'vegetables', 'tamarind']",46,Medium,302,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.0278803382530493
+70,Fish Head Curry,Malaysian,Dinner,"['fish head', 'curry powder', 'coconut milk', 'okra', 'tomato', 'tamarind']",57,Medium,551,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sour']",3.6913135274950144
+71,Agedashi Tofu,Japanese,Appetizer,"['tofu', 'dashi broth', 'tempura sauce']",58,Easy,202,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.637550553711568
+72,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",26,Medium,363,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.681944875400685
+73,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",55,Easy,250,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.923710873296269
+74,Thai Fish Cakes,Thai,Appetizer,"['fish', 'red curry paste', 'green beans', 'cucumber relish']",49,Easy,288,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.147912399905263
+75,Bacon and Eggs,American,Breakfast,"['bacon', 'eggs', 'toast', 'butter']",40,Medium,300,['gluten-free'],['savory'],4.194055294230495
+76,Congee,Chinese,Breakfast,"['rice', 'water', 'ginger', 'scallions']",27,Easy,306,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.982661100135983
+77,ABC (Air Batu Campur),Malaysian,Dessert,"['shaved ice', 'red beans', 'corn', 'jelly', 'condensed milk']",58,Hard,323,"['vegetarian', 'gluten-free', 'halal']",['savory'],3.573362736821955
+78,Biscotti,Italian,Breakfast,"['flour', 'almonds', 'sugar', 'eggs']",57,Medium,267,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",3.532306897204062
+79,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",45,Hard,343,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.8600922653099876
+80,Char Kway Teow,Malaysian,Lunch,"['rice noodles', 'soy sauce', 'prawns', 'lap cheong', 'bean sprouts', 'chili']",46,Hard,431,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",1.3729204068147096
+81,Whole Steamed Fish,Chinese,Dinner,"['fish', 'ginger', 'soy sauce', 'scallions']",43,Hard,565,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.663374683888575
+82,Chicken Parmigiana,Italian,Dinner,"['chicken', 'parmesan', 'tomato sauce', 'mozzarella']",20,Medium,553,"['dairy-free', 'gluten-free', 'halal']",['savory'],4.2288854846093775
+83,Prosciutto e Melone,Italian,Appetizer,"['prosciutto', 'melon']",58,Medium,242,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],4.887241275032077
+84,Cold Noodles,Chinese,Appetizer,"['noodles', 'cucumber', 'peanut sauce', 'sesame oil']",55,Easy,209,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.533368738073373
+85,Palak Paneer,Indian,Lunch,"['spinach', 'paneer', 'cream', 'spices']",47,Easy,466,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",1.4435590888037222
+86,Prawn Crackers,Malaysian,Appetizer,"['prawns', 'tapioca flour', 'chili sauce']",39,Medium,248,"['dairy-free', 'halal']",['savory'],1.0309196262772478
+87,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",49,Medium,439,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.3114504475030304
+88,Crispy Spring Rolls,Thai,Appetizer,"['spring roll wrappers', 'vegetables', 'sweet chili sauce']",55,Easy,276,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.7584401643207594
+89,Thai Omelet,Thai,Breakfast,"['eggs', 'fish sauce', 'chili', 'rice']",59,Easy,337,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.6725308321827463
+90,Scallion Pancakes,Chinese,Appetizer,"['flour', 'scallions', 'oil']",42,Easy,279,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",3.6220360420749564
+91,Kulfi,Indian,Dessert,"['milk', 'sugar', 'cardamom', 'pistachios']",37,Medium,361,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",2.4077688904803063
+92,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",40,Hard,588,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.1672711890614345
+93,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",49,Medium,323,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",1.3373165280982553
+94,Masala Dosa,Indian,Breakfast,"['rice', 'lentils', 'potato', 'turmeric', 'curry leaves']",34,Medium,300,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.5892214278772276
+95,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",43,Medium,594,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.2409269502072484
+96,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",51,Easy,492,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.7210516915073786
+97,Steak Dinner,American,Dinner,"['beef steak', 'potato', 'vegetables', 'butter']",47,Hard,517,"['gluten-free', 'halal']",['savory'],3.6477169494856705
+98,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",25,Medium,298,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.139711730253433
+99,Curry Laksa,Malaysian,Lunch,"['coconut milk', 'curry paste', 'rice noodles', 'prawns', 'tofu puffs', 'bean sprouts']",37,Medium,405,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",1.5535941384137248
+100,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",43,Medium,287,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.785653052047042
+101,Brownies,American,Dessert,"['chocolate', 'butter', 'sugar', 'flour']",43,Medium,350,"['vegetarian', 'halal']","['savory', 'sweet']",4.356705150446423
+102,Green Curry,Thai,Lunch,"['green curry paste', 'coconut milk', 'chicken', 'thai basil', 'eggplant']",22,Medium,473,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",3.435520396464214
+103,Gyeran-jjim (Steamed Egg),Korean,Breakfast,"['eggs', 'water', 'salt']",49,Medium,250,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.3001898301225343
+104,Fish Curry,Indian,Dinner,"['fish', 'coconut milk', 'curry leaves', 'tamarind']",45,Medium,504,"['gluten-free', 'halal']","['savory', 'spicy', 'sour', 'creamy']",4.145649343381271
+105,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",24,Medium,384,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",4.0267157057678284
+106,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",49,Hard,263,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",4.54316154247242
+107,Red Curry Duck,Thai,Dinner,"['duck', 'red curry paste', 'coconut milk', 'thai basil']",29,Medium,533,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",4.557946068049126
+108,Cendol,Malaysian,Dessert,"['coconut milk', 'palm sugar', 'pandan', 'red beans', 'ice']",34,Medium,360,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.181897589378548
+109,Jok,Thai,Breakfast,"['rice porridge', 'pork', 'ginger', 'soy sauce']",39,Easy,260,"['dairy-free', 'gluten-free']",['savory'],3.9072575828444114
+110,Thai Fish Cakes,Thai,Appetizer,"['fish', 'red curry paste', 'green beans', 'cucumber relish']",59,Easy,285,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.139195863194168
+111,Sweet and Sour Pork,Chinese,Lunch,"['pork', 'pineapple', 'bell pepper', 'vinegar', 'sugar']",49,Medium,407,"['dairy-free', 'gluten-free']","['savory', 'umami', 'sour', 'sweet']",3.1178395261451586
+112,Samgyeopsal (Grilled Pork Belly),Korean,Dinner,"['pork belly', 'lettuce', 'ssamjang']",45,Hard,528,"['dairy-free', 'gluten-free']",['savory'],3.7759225641631753
+113,Chicken Rice,Malaysian,Lunch,"['rice', 'chicken', 'ginger', 'garlic', 'cucumber']",23,Hard,426,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.6713591619558716
+114,Spicy Cucumber Salad,Chinese,Appetizer,"['cucumber', 'garlic', 'vinegar', 'chili oil']",53,Medium,299,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",2.4435860977775286
+115,Tub Tim Grob,Thai,Dessert,"['water chestnuts', 'coconut milk', 'tapioca', 'jackfruit']",38,Hard,302,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.5693543575455253
+116,Kuih Lapis,Malaysian,Dessert,"['rice flour', 'coconut milk', 'pandan', 'sugar']",42,Medium,311,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",1.9018811388618668
+117,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",26,Easy,321,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.497916749734663
+118,Spicy Shrimp Salad,Thai,Appetizer,"['shrimp', 'lime juice', 'chili', 'coriander']",49,Medium,245,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.666347134652985
+119,Gelato,Italian,Dessert,"['milk', 'cream', 'sugar', 'various flavors']",33,Medium,374,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",2.3607702734071094
+120,Lamb Rogan Josh,Indian,Dinner,"['lamb', 'yogurt', 'kashmiri chili', 'spices']",30,Hard,544,"['gluten-free', 'halal']","['savory', 'spicy']",1.202421167201161
+121,Korean Pancakes (Jeon),Korean,Appetizer,"['flour', 'vegetables', 'seafood', 'dipping sauce']",42,Medium,252,"['dairy-free', 'halal']",['savory'],2.8289225687589235
+122,Philly Cheesesteak,American,Lunch,"['beef', 'cheese', 'onions', 'hoagie roll']",58,Medium,411,"['gluten-free', 'halal']","['savory', 'cheesy']",4.055427056647958
+123,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",31,Easy,305,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",3.4929663145660945
+124,Sweet and Sour Pork,Chinese,Lunch,"['pork', 'pineapple', 'bell pepper', 'vinegar', 'sugar']",24,Medium,499,"['dairy-free', 'gluten-free']","['savory', 'umami', 'sour', 'sweet']",2.332162821411069
+125,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",44,Medium,292,"['dairy-free', 'gluten-free', 'halal']",['savory'],4.313157543829504
+126,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",36,Easy,222,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.313897328902316
+127,Eggs Benedict,American,Breakfast,"['english muffin', 'ham', 'eggs', 'hollandaise']",26,Medium,314,"['dairy-free', 'gluten-free']",['savory'],2.67512119267676
+128,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",20,Medium,401,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.692729695429311
+129,Crispy Spring Rolls,Thai,Appetizer,"['spring roll wrappers', 'vegetables', 'sweet chili sauce']",60,Easy,224,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.8196037473463353
+130,Rendang Daging,Malaysian,Dinner,"['beef', 'coconut milk', 'lemongrass', 'galangal', 'chili paste', 'palm sugar']",26,Medium,540,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",2.7695044474593415
+131,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",42,Medium,336,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.1241659589311968
+132,Breakfast Burrito,American,Breakfast,"['tortilla', 'eggs', 'cheese', 'potato', 'salsa']",37,Easy,325,"['vegetarian', 'gluten-free', 'halal']","['savory', 'cheesy']",1.6317643048437667
+133,Cendol,Malaysian,Dessert,"['coconut milk', 'palm sugar', 'pandan', 'red beans', 'ice']",29,Medium,394,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.1491929862865722
+134,Kulfi,Indian,Dessert,"['milk', 'sugar', 'cardamom', 'pistachios']",50,Medium,356,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",2.81739631262718
+135,Chicken Rice,Malaysian,Lunch,"['rice', 'chicken', 'ginger', 'garlic', 'cucumber']",53,Hard,446,"['dairy-free', 'gluten-free', 'halal']",['savory'],1.7019796553538589
+136,Yakgwa (Honey Cookies),Korean,Dessert,"['wheat flour', 'honey', 'sesame oil']",44,Easy,357,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami', 'sweet']",2.207783358766459
+137,Seafood Risotto,Italian,Dinner,"['arborio rice', 'mixed seafood', 'white wine', 'saffron']",35,Hard,548,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.7611615096752566
+138,Sukiyaki,Japanese,Dinner,"['beef', 'tofu', 'vegetables', 'sukiyaki sauce']",37,Hard,531,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.302414036345828
+139,Stuffed Mushrooms,American,Appetizer,"['mushrooms', 'cream cheese', 'herbs']",56,Medium,261,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",1.5994095255296572
+140,Spicy Shrimp Salad,Thai,Appetizer,"['shrimp', 'lime juice', 'chili', 'coriander']",49,Medium,236,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",3.6910708489094777
+141,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",56,Hard,305,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.1269394840923161
+142,Japchae (Stir-fried Glass Noodles),Korean,Lunch,"['sweet potato noodles', 'vegetables', 'beef']",30,Medium,417,"['dairy-free', 'gluten-free', 'halal']",['savory'],2.391079548556601
+143,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",27,Easy,204,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.061959717060466
+144,Gelato,Italian,Dessert,"['milk', 'cream', 'sugar', 'various flavors']",21,Medium,377,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.97893660487357
+145,Tiramisu,Italian,Dessert,"['mascarpone', 'coffee', 'ladyfingers', 'cocoa', 'marsala']",37,Medium,319,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'creamy']",2.207057740576813
+146,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",52,Easy,245,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.524618529850381
+147,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",44,Medium,396,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.2495437983476365
+148,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",27,Easy,219,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",2.508671899845359
+149,Biscotti,Italian,Breakfast,"['flour', 'almonds', 'sugar', 'eggs']",38,Easy,286,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",1.469264797773338
+150,Hokkien Mee,Malaysian,Lunch,"['yellow noodles', 'rice noodles', 'prawns', 'pork', 'dark soy sauce']",48,Medium,468,"['dairy-free', 'gluten-free']",['savory'],2.9891091724039334
+151,Sesame Balls,Chinese,Dessert,"['glutinous rice flour', 'red bean paste', 'sesame seeds']",40,Medium,383,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",2.1807691500309527
+152,Meatloaf,American,Dinner,"['ground beef', 'breadcrumbs', 'ketchup', 'mashed potato']",22,Hard,500,"['dairy-free', 'halal']",['savory'],1.6770628434407269
+153,Curry Laksa,Malaysian,Lunch,"['coconut milk', 'curry paste', 'rice noodles', 'prawns', 'tofu puffs', 'bean sprouts']",33,Hard,455,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",1.6041185858589846
+154,Deviled Eggs,American,Appetizer,"['eggs', 'mayonnaise', 'mustard', 'paprika']",41,Easy,239,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],2.098962948791328
+155,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",51,Easy,282,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.3160769752577415
+156,Bingsu (Shaved Ice),Korean,Dessert,"['shaved ice', 'sweetened condensed milk', 'red beans', 'fruit']",54,Medium,400,"['vegetarian', 'gluten-free', 'halal']",['savory'],3.8113806000764243
+157,Mango Pudding,Chinese,Dessert,"['mango', 'gelatin', 'milk', 'sugar']",59,Hard,308,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.737714973854566
+158,Edamame,Japanese,Appetizer,"['young soybeans', 'salt']",34,Medium,288,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.19710755832345
+159,Deviled Eggs,American,Appetizer,"['eggs', 'mayonnaise', 'mustard', 'paprika']",29,Hard,296,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],4.3546986304527
+160,Spicy Shrimp Salad,Thai,Appetizer,"['shrimp', 'lime juice', 'chili', 'coriander']",58,Medium,210,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.520290854146901
+161,Bento Box,Japanese,Lunch,"['rice', 'fish', 'vegetables', 'pickles']",55,Easy,498,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.4396699893875864
+162,Tamagoyaki,Japanese,Breakfast,"['eggs', 'mirin', 'soy sauce', 'sugar']",40,Easy,345,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",2.5409516695839347
+163,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",56,Medium,364,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",2.6844093590900973
+164,Roti Canai,Malaysian,Breakfast,"['flour', 'ghee', 'curry', 'dhal']",45,Easy,287,"['vegetarian', 'vegan', 'dairy-free', 'halal']",['savory'],2.519559824588193
+165,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",22,Easy,324,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.939497461764746
+166,Kerabu Mango Salad,Malaysian,Appetizer,"['green mango', 'chili', 'peanuts', 'lime juice']",47,Medium,235,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.1076644347013413
+167,Wanton Mee,Malaysian,Lunch,"['egg noodles', 'wanton', 'char siu', 'bok choy', 'soy sauce']",45,Medium,488,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.916938799090505
+168,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",57,Medium,215,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.32638680832734
+169,Kimchi Fried Rice,Korean,Breakfast,"['rice', 'kimchi', 'egg', 'green onion']",46,Easy,314,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'fermented']",1.6029797299196535
+170,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",35,Hard,377,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",4.137079990114788
+171,Sambal Kangkung,Malaysian,Dinner,"['kangkung', 'belacan', 'chili', 'onion', 'tamarind']",22,Medium,595,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",3.708557331563536
+172,Palak Paneer,Indian,Lunch,"['spinach', 'paneer', 'cream', 'spices']",52,Medium,400,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",4.53238949767722
+173,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",28,Medium,227,"['dairy-free', 'gluten-free', 'halal']",['savory'],1.788297100590182
+174,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",39,Hard,511,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.82395344378392
+175,Edamame,Japanese,Appetizer,"['young soybeans', 'salt']",41,Easy,284,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.6729564248450344
+176,Paneer Tikka,Indian,Appetizer,"['paneer', 'yogurt', 'spices', 'bell peppers']",37,Easy,214,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy']",1.038333758253125
+177,Palak Paneer,Indian,Lunch,"['spinach', 'paneer', 'cream', 'spices']",43,Easy,410,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",1.8993736665728274
+178,Bento Box,Japanese,Lunch,"['rice', 'fish', 'vegetables', 'pickles']",42,Medium,455,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.8741677400402939
+179,Banchan (Side Dishes),Korean,Breakfast,"['various vegetables', 'fermented']",50,Easy,271,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.3516955879072423
+180,Thai Fish Cakes,Thai,Appetizer,"['fish', 'red curry paste', 'green beans', 'cucumber relish']",38,Easy,250,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.0693722651123205
+181,Fried Rice,Chinese,Lunch,"['rice', 'eggs', 'scallions', 'soy sauce']",38,Medium,462,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.8079668902014574
+182,Almond Tofu,Chinese,Dessert,"['almond extract', 'gelatin', 'milk', 'sugar']",40,Hard,337,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.5393621821446364
+183,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",53,Medium,267,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",3.7302077043728237
+184,Cappuccino e Brioche,Italian,Breakfast,"['coffee', 'milk', 'brioche', 'sugar']",42,Easy,342,"['vegetarian', 'gluten-free', 'halal']","['savory', 'sweet']",2.7111972034668383
+185,Vegetable Korma,Indian,Dinner,"['mixed vegetables', 'coconut', 'cashews', 'spices']",54,Hard,522,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",3.903953453881781
+186,Apple Pie,American,Dessert,"['apples', 'cinnamon', 'pastry', 'vanilla ice cream']",47,Medium,323,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy']",1.0322502760767072
+187,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",50,Easy,265,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",1.5485171789741825
+188,Chicken Biryani,Indian,Lunch,"['basmati rice', 'chicken', 'saffron', 'yogurt', 'spices']",39,Easy,490,"['gluten-free', 'halal']","['savory', 'spicy']",3.464304050402825
+189,Chicken Rice,Malaysian,Lunch,"['rice', 'chicken', 'ginger', 'garlic', 'cucumber']",56,Medium,425,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.4000314689034115
+190,Tamagoyaki,Japanese,Breakfast,"['eggs', 'mirin', 'soy sauce', 'sugar']",32,Easy,320,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.113146003744737
+191,Lasagna Bolognese,Italian,Dinner,"['pasta sheets', 'bolognese sauce', 'bechamel', 'parmesan']",24,Hard,515,['dairy-free'],['savory'],1.8629717540689366
+192,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",55,Medium,352,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",3.1455606915578334
+193,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",48,Medium,233,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",1.22011447874576
+194,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",44,Medium,339,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",1.6678518167695233
+195,Butter Chicken,Indian,Dinner,"['chicken', 'tomato', 'cream', 'butter', 'spices']",46,Hard,509,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",3.0431275177038875
+196,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",28,Medium,317,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",1.9782058014268138
+197,Claypot Chicken Rice,Malaysian,Dinner,"['rice', 'chicken', 'chinese sausage', 'mushroom', 'soy sauce']",36,Medium,560,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.4776037186992448
+198,Risotto Milanese,Italian,Lunch,"['arborio rice', 'saffron', 'parmesan', 'white wine', 'onion']",49,Medium,407,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.3455420897332249
+199,Nasi Lemak,Malaysian,Breakfast,"['coconut milk', 'rice', 'pandan', 'anchovies', 'peanuts', 'cucumber', 'egg']",58,Medium,292,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",4.183894164715018
+200,Poha,Indian,Breakfast,"['flattened rice', 'onion', 'turmeric', 'curry leaves']",26,Medium,265,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.9526703780834627
+201,Roti Canai,Malaysian,Breakfast,"['flour', 'ghee', 'curry', 'dhal']",23,Medium,350,"['vegetarian', 'vegan', 'dairy-free', 'halal']",['savory'],3.3230825095050633
+202,Rasmalai,Indian,Dessert,"['paneer', 'milk', 'sugar', 'cardamom']",21,Medium,349,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",3.941411475129472
+203,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",44,Easy,386,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.1436981963600945
+204,Apple Pie,American,Dessert,"['apples', 'cinnamon', 'pastry', 'vanilla ice cream']",59,Medium,350,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy']",4.873600016705476
+205,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",36,Medium,254,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.3789011079681885
+206,Sweet and Sour Pork,Chinese,Lunch,"['pork', 'pineapple', 'bell pepper', 'vinegar', 'sugar']",33,Medium,407,"['dairy-free', 'gluten-free']","['savory', 'umami', 'sour', 'sweet']",3.3292952056562526
+207,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",39,Medium,319,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.2025508036610244
+208,Yakgwa (Honey Cookies),Korean,Dessert,"['wheat flour', 'honey', 'sesame oil']",58,Medium,327,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami', 'sweet']",1.9831391169809818
+209,Matcha Ice Cream,Japanese,Dessert,"['matcha powder', 'cream', 'sugar']",48,Medium,357,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",4.20867233108451
+210,Tiramisu,Italian,Dessert,"['mascarpone', 'coffee', 'ladyfingers', 'cocoa', 'marsala']",46,Medium,384,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'creamy']",4.114153125313898
+211,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",36,Medium,378,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",3.302768434479984
+212,Samgyeopsal (Grilled Pork Belly),Korean,Dinner,"['pork belly', 'lettuce', 'ssamjang']",20,Medium,525,"['dairy-free', 'gluten-free']",['savory'],4.346787362933344
+213,Prawn Crackers,Malaysian,Appetizer,"['prawns', 'tapioca flour', 'chili sauce']",56,Easy,297,"['dairy-free', 'halal']",['savory'],1.8058575334085645
+214,Fish Curry,Indian,Dinner,"['fish', 'coconut milk', 'curry leaves', 'tamarind']",24,Medium,548,"['gluten-free', 'halal']","['savory', 'spicy', 'sour', 'creamy']",2.4595594096350295
+215,Peking Duck,Chinese,Dinner,"['duck', 'hoisin sauce', 'pancakes', 'scallions', 'cucumber']",28,Hard,585,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.774241593170172
+216,Green Curry,Thai,Lunch,"['green curry paste', 'coconut milk', 'chicken', 'thai basil', 'eggplant']",20,Hard,474,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",4.860735761150204
+217,Spaghetti Carbonara,Italian,Lunch,"['spaghetti', 'pancetta', 'eggs', 'pecorino', 'black pepper']",34,Easy,440,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],4.286647221713239
+218,Mango Sticky Rice,Thai,Dessert,"['mango', 'sticky rice', 'coconut milk', 'palm sugar']",44,Medium,400,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.9303379779950744
+219,Gulab Jamun,Indian,Dessert,"['milk powder', 'sugar syrup', 'cardamom']",58,Hard,366,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",4.806648525736483
+220,Braised Pork Belly,Chinese,Dinner,"['pork belly', 'soy sauce', 'rock sugar', 'rice wine']",44,Hard,580,"['dairy-free', 'gluten-free']","['savory', 'umami', 'sweet']",3.4292705026195427
+221,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",43,Medium,492,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",2.1896025907262646
+222,Youtiao,Chinese,Breakfast,"['flour', 'oil', 'salt']",49,Easy,283,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",1.7986992030437854
+223,Spaghetti Carbonara,Italian,Lunch,"['spaghetti', 'pancetta', 'eggs', 'pecorino', 'black pepper']",22,Medium,448,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.364547510202717
+224,Japchae (Stir-fried Glass Noodles),Korean,Lunch,"['sweet potato noodles', 'vegetables', 'beef']",47,Medium,475,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.6698738365382737
+225,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",52,Medium,503,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.601820245886367
+226,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",21,Medium,301,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",4.6566957475943465
+227,Youtiao,Chinese,Breakfast,"['flour', 'oil', 'salt']",55,Medium,349,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",2.657769595075915
+228,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",41,Easy,243,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.8921864639957446
+229,Lamb Rogan Josh,Indian,Dinner,"['lamb', 'yogurt', 'kashmiri chili', 'spices']",42,Hard,548,"['gluten-free', 'halal']","['savory', 'spicy']",2.2437971913917854
+230,Kaya Toast,Malaysian,Breakfast,"['bread', 'kaya', 'butter', 'coconut', 'egg']",23,Easy,258,"['vegetarian', 'halal']",['savory'],3.963779195680032
+231,Thai Omelet,Thai,Breakfast,"['eggs', 'fish sauce', 'chili', 'rice']",48,Easy,327,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.3479067104347795
+232,Eggs Benedict,American,Breakfast,"['english muffin', 'ham', 'eggs', 'hollandaise']",33,Easy,257,"['dairy-free', 'gluten-free']",['savory'],3.3475209936897072
+233,Red Curry Duck,Thai,Dinner,"['duck', 'red curry paste', 'coconut milk', 'thai basil']",27,Medium,510,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",4.42844474975321
+234,Caesar Salad,American,Lunch,"['romaine lettuce', 'parmesan', 'croutons', 'caesar dressing']",44,Easy,495,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.8950801268932351
+235,Tempura,Japanese,Dinner,"['shrimp', 'vegetables', 'tempura batter', 'dipping sauce']",53,Medium,575,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.35751367730587
+236,Yakiniku,Japanese,Dinner,"['beef', 'soy sauce', 'mirin', 'vegetables']",37,Medium,556,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",2.1951644476759458
+237,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",45,Hard,222,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.5530996840218334
+238,Caprese Salad,Italian,Appetizer,"['mozzarella', 'tomato', 'basil', 'olive oil']",28,Medium,290,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],2.8831234910471477
+239,Edamame,Japanese,Appetizer,"['young soybeans', 'salt']",42,Medium,233,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.8550425127510395
+240,Mango Pudding,Chinese,Dessert,"['mango', 'gelatin', 'milk', 'sugar']",23,Easy,338,"['vegetarian', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.11935401851999
+241,Banchan (Side Dishes),Korean,Breakfast,"['various vegetables', 'fermented']",22,Medium,271,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.232054352900788
+242,Rendang Daging,Malaysian,Dinner,"['beef', 'coconut milk', 'lemongrass', 'galangal', 'chili paste', 'palm sugar']",31,Medium,502,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",2.9096011037622813
+243,Cappuccino e Brioche,Italian,Breakfast,"['coffee', 'milk', 'brioche', 'sugar']",39,Medium,331,"['vegetarian', 'gluten-free', 'halal']","['savory', 'sweet']",2.3773990962532836
+244,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",52,Medium,298,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",4.981889639311714
+245,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",28,Medium,349,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.6759389675605885
+246,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",20,Easy,305,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",2.5210150517104584
+247,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",45,Medium,377,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.0463391458620492
+248,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",43,Easy,593,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.639024922113156
+249,Idli Sambar,Indian,Breakfast,"['rice', 'lentils', 'vegetables', 'tamarind']",34,Hard,349,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",1.5965779706670644
+250,Spicy Cucumber Salad,Chinese,Appetizer,"['cucumber', 'garlic', 'vinegar', 'chili oil']",31,Easy,230,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",4.496561796648637
+251,Sashimi,Japanese,Dinner,"['fresh fish', 'wasabi', 'soy sauce', 'pickled ginger']",33,Hard,579,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",2.750858067127739
+252,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",45,Medium,255,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.6671149168329404
+253,Poha,Indian,Breakfast,"['flattened rice', 'onion', 'turmeric', 'curry leaves']",25,Medium,307,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.909114538831847
+254,Rasmalai,Indian,Dessert,"['paneer', 'milk', 'sugar', 'cardamom']",32,Hard,303,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",3.6793774328572617
+255,Thai Fish Cakes,Thai,Appetizer,"['fish', 'red curry paste', 'green beans', 'cucumber relish']",58,Medium,239,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.73748568168066
+256,Ondeh Ondeh,Malaysian,Dessert,"['glutinous rice flour', 'palm sugar', 'coconut', 'pandan']",22,Hard,355,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",1.3153223830191667
+257,Kerabu Mango Salad,Malaysian,Appetizer,"['green mango', 'chili', 'peanuts', 'lime juice']",27,Easy,268,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.1671331406892325
+258,Edamame,Japanese,Appetizer,"['young soybeans', 'salt']",40,Medium,295,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.8666322725167035
+259,Tub Tim Grob,Thai,Dessert,"['water chestnuts', 'coconut milk', 'tapioca', 'jackfruit']",37,Medium,316,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",2.4955614418416037
+260,Youtiao,Chinese,Breakfast,"['flour', 'oil', 'salt']",30,Medium,261,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",4.125681614595019
+261,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",58,Easy,320,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",3.3404828453937756
+262,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",37,Medium,286,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.854374150719011
+263,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",35,Medium,319,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.689494852205268
+264,Dhokla,Indian,Appetizer,"['gram flour', 'yogurt', 'mustard seeds']",40,Medium,287,"['vegetarian', 'halal']","['savory', 'spicy']",1.2264190971822266
+265,Sushi Roll,Japanese,Lunch,"['sushi rice', 'nori', 'fish', 'cucumber', 'avocado']",56,Medium,465,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.9579699206914
+266,Spinach Artichoke Dip,American,Appetizer,"['spinach', 'artichokes', 'cream cheese', 'parmesan']",42,Easy,232,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",4.480472369285341
+267,Grilled Salmon,American,Dinner,"['salmon', 'asparagus', 'lemon', 'herbs']",48,Easy,547,"['dairy-free', 'gluten-free', 'halal']",['savory'],3.3359442307357248
+268,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",44,Medium,325,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.1596327296697195
+269,Khanom Krok,Thai,Breakfast,"['coconut milk', 'rice flour', 'palm sugar', 'corn']",22,Medium,311,"['vegetarian', 'halal']","['savory', 'creamy', 'sweet']",3.653337905761108
+270,Massaman Curry,Thai,Dinner,"['beef', 'potatoes', 'massaman paste', 'coconut milk', 'peanuts']",43,Medium,550,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",4.674429196749082
+271,Eggs Benedict,American,Breakfast,"['english muffin', 'ham', 'eggs', 'hollandaise']",20,Medium,280,"['dairy-free', 'gluten-free']",['savory'],1.175406643642007
+272,BBQ Ribs,American,Dinner,"['pork ribs', 'bbq sauce', 'coleslaw']",36,Medium,559,"['dairy-free', 'gluten-free']",['savory'],2.6968378077645623
+273,Fried Rice,Chinese,Lunch,"['rice', 'eggs', 'scallions', 'soy sauce']",20,Easy,436,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.299849177051166
+274,BBQ Ribs,American,Dinner,"['pork ribs', 'bbq sauce', 'coleslaw']",44,Hard,593,"['dairy-free', 'gluten-free']",['savory'],3.8035281255320084
+275,Hot Pot,Chinese,Dinner,"['broth', 'mixed vegetables', 'meat', 'tofu', 'noodles']",32,Hard,574,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.1232766054268977
+276,Aloo Tikki,Indian,Appetizer,"['potato', 'peas', 'spices']",56,Hard,243,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",2.492522059601296
+277,Caprese Salad,Italian,Appetizer,"['mozzarella', 'tomato', 'basil', 'olive oil']",23,Easy,231,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],2.6506179841049917
+278,Palak Paneer,Indian,Lunch,"['spinach', 'paneer', 'cream', 'spices']",46,Medium,486,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",4.729479461612595
+279,Prawn Crackers,Malaysian,Appetizer,"['prawns', 'tapioca flour', 'chili sauce']",40,Medium,276,"['dairy-free', 'halal']",['savory'],1.9381313949836807
+280,Seaweed Salad,Japanese,Appetizer,"['seaweed', 'sesame oil', 'vinegar', 'cucumber']",58,Easy,250,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.834635687718015
+281,Poha,Indian,Breakfast,"['flattened rice', 'onion', 'turmeric', 'curry leaves']",20,Medium,253,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.2066873046407887
+282,Paneer Tikka,Indian,Appetizer,"['paneer', 'yogurt', 'spices', 'bell peppers']",25,Medium,200,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy']",4.398349091624567
+283,Caprese Salad,Italian,Appetizer,"['mozzarella', 'tomato', 'basil', 'olive oil']",31,Easy,256,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.0044926855090854
+284,Sesame Balls,Chinese,Dessert,"['glutinous rice flour', 'red bean paste', 'sesame seeds']",38,Medium,329,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",1.58479621219396
+285,Rendang Daging,Malaysian,Dinner,"['beef', 'coconut milk', 'lemongrass', 'galangal', 'chili paste', 'palm sugar']",39,Medium,550,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",4.165841828621964
+286,Songpyeon (Rice Cake),Korean,Dessert,"['glutinous rice flour', 'sweet filling', 'sesame seeds']",45,Medium,351,"['vegetarian', 'vegan', 'dairy-free', 'halal']",['savory'],4.592906470163735
+287,Spicy Cucumber Salad,Chinese,Appetizer,"['cucumber', 'garlic', 'vinegar', 'chili oil']",21,Easy,300,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",1.9199630641069478
+288,Ramen,Japanese,Lunch,"['ramen noodles', 'pork broth', 'egg', 'scallions', 'bamboo shoots']",34,Medium,433,"['dairy-free', 'gluten-free']","['savory', 'umami']",1.8428158042070537
+289,Gulab Jamun,Indian,Dessert,"['milk powder', 'sugar syrup', 'cardamom']",46,Medium,376,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",4.689787482620404
+290,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",54,Easy,234,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.8774552592743508
+291,Korean Pancakes (Jeon),Korean,Appetizer,"['flour', 'vegetables', 'seafood', 'dipping sauce']",26,Medium,229,"['dairy-free', 'halal']",['savory'],1.5288527938297425
+292,Margherita Pizza,Italian,Lunch,"['pizza dough', 'tomato sauce', 'mozzarella', 'basil']",54,Medium,408,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.5213153631086573
+293,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",30,Easy,381,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",2.1330666720358233
+294,Samgyeopsal (Grilled Pork Belly),Korean,Dinner,"['pork belly', 'lettuce', 'ssamjang']",36,Medium,525,"['dairy-free', 'gluten-free']",['savory'],1.4263328657978347
+295,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",33,Easy,233,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",3.219645425193314
+296,Sashimi,Japanese,Dinner,"['fresh fish', 'wasabi', 'soy sauce', 'pickled ginger']",34,Hard,599,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",3.033374172465828
+297,Crispy Spring Rolls,Thai,Appetizer,"['spring roll wrappers', 'vegetables', 'sweet chili sauce']",51,Medium,220,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.887080978478048
+298,Spicy Cucumber Salad,Chinese,Appetizer,"['cucumber', 'garlic', 'vinegar', 'chili oil']",25,Medium,232,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy', 'sour']",1.8068289712240584
+299,Chicken Teriyaki,Japanese,Lunch,"['chicken', 'teriyaki sauce', 'rice', 'vegetables']",53,Easy,432,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.34737125029615
+300,Dorayaki,Japanese,Dessert,"['pancake', 'red bean paste', 'honey']",41,Medium,376,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.660035895792616
+301,Red Curry Duck,Thai,Dinner,"['duck', 'red curry paste', 'coconut milk', 'thai basil']",38,Hard,587,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",2.3598635776941617
+302,Scallion Pancakes,Chinese,Appetizer,"['flour', 'scallions', 'oil']",25,Medium,291,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami']",2.0312790592776016
+303,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",37,Easy,466,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.9951525277219617
+304,Khao Tom,Thai,Breakfast,"['rice', 'pork', 'ginger', 'fish sauce', 'scallions']",24,Easy,270,"['dairy-free', 'gluten-free']",['savory'],1.8271145292880395
+305,Caesar Salad,American,Lunch,"['romaine lettuce', 'parmesan', 'croutons', 'caesar dressing']",25,Medium,442,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],4.523948994189494
+306,Mochi,Japanese,Dessert,"['glutinous rice', 'sweet filling', 'cornstarch']",31,Medium,314,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.1302505881331921
+307,Thai Coconut Ice Cream,Thai,Dessert,"['coconut milk', 'palm sugar', 'pandan']",28,Easy,363,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",1.7486097678113994
+308,Sushi Roll,Japanese,Lunch,"['sushi rice', 'nori', 'fish', 'cucumber', 'avocado']",42,Medium,487,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.285638872716998
+309,Breakfast Burrito,American,Breakfast,"['tortilla', 'eggs', 'cheese', 'potato', 'salsa']",41,Medium,315,"['vegetarian', 'gluten-free', 'halal']","['savory', 'cheesy']",2.9983913044474026
+310,Mango Sticky Rice,Thai,Dessert,"['mango', 'sticky rice', 'coconut milk', 'palm sugar']",29,Medium,311,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",3.519448849448618
+311,Claypot Chicken Rice,Malaysian,Dinner,"['rice', 'chicken', 'chinese sausage', 'mushroom', 'soy sauce']",57,Medium,533,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.5994619324544352
+312,Fish Curry,Indian,Dinner,"['fish', 'coconut milk', 'curry leaves', 'tamarind']",51,Hard,519,"['gluten-free', 'halal']","['savory', 'spicy', 'sour', 'creamy']",4.71426666788424
+313,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",25,Medium,271,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",4.123896147692396
+314,Crispy Spring Rolls,Thai,Appetizer,"['spring roll wrappers', 'vegetables', 'sweet chili sauce']",37,Easy,218,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.193734975273175
+315,Cannoli,Italian,Dessert,"['pastry shells', 'ricotta', 'chocolate chips', 'sugar']",49,Hard,338,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'sweet']",2.7726417072558607
+316,Dal Tadka,Indian,Lunch,"['lentils', 'turmeric', 'cumin', 'garlic', 'tomato']",53,Easy,428,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.3633237063164767
+317,Kerabu Mango Salad,Malaysian,Appetizer,"['green mango', 'chili', 'peanuts', 'lime juice']",56,Medium,260,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.0003693855797122
+318,Vegetable Korma,Indian,Dinner,"['mixed vegetables', 'coconut', 'cashews', 'spices']",50,Hard,575,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'creamy']",1.7542839172999818
+319,Bingsu (Shaved Ice),Korean,Dessert,"['shaved ice', 'sweetened condensed milk', 'red beans', 'fruit']",39,Medium,366,"['vegetarian', 'gluten-free', 'halal']",['savory'],3.452864879595486
+320,Sukiyaki,Japanese,Dinner,"['beef', 'tofu', 'vegetables', 'sukiyaki sauce']",35,Medium,504,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.6085972204694765
+321,Penne Arrabbiata,Italian,Lunch,"['penne', 'tomato', 'chili', 'garlic', 'olive oil']",32,Easy,453,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.197849407744281
+322,Mango Sticky Rice,Thai,Dessert,"['mango', 'sticky rice', 'coconut milk', 'palm sugar']",41,Medium,325,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'sweet']",4.269002895998281
+323,Cornetti,Italian,Breakfast,"['flour', 'butter', 'sugar', 'jam']",28,Easy,263,"['vegetarian', 'halal']","['savory', 'sweet']",3.725769280231413
+324,Sukiyaki,Japanese,Dinner,"['beef', 'tofu', 'vegetables', 'sukiyaki sauce']",20,Medium,508,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.9438633511337327
+325,Kimchi Jjigae (Kimchi Stew),Korean,Dinner,"['kimchi', 'tofu', 'pork', 'scallions']",26,Medium,544,"['dairy-free', 'gluten-free']","['savory', 'spicy', 'fermented']",3.763005658247193
+326,Lamb Rogan Josh,Indian,Dinner,"['lamb', 'yogurt', 'kashmiri chili', 'spices']",28,Medium,587,"['gluten-free', 'halal']","['savory', 'spicy']",1.240209342830632
+327,Tom Yum Goong,Thai,Lunch,"['prawns', 'lemongrass', 'lime leaves', 'chili', 'lime juice']",44,Medium,443,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.4326699890017256
+328,Butter Chicken,Indian,Dinner,"['chicken', 'tomato', 'cream', 'butter', 'spices']",48,Medium,583,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",2.1012978514332126
+329,Paratha,Indian,Breakfast,"['wheat flour', 'ghee', 'potato', 'spices']",53,Medium,299,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'spicy']",3.480789251291351
+330,Khao Tom,Thai,Breakfast,"['rice', 'pork', 'ginger', 'fish sauce', 'scallions']",53,Easy,250,"['dairy-free', 'gluten-free']",['savory'],1.5190970652889844
+331,Spaghetti Carbonara,Italian,Lunch,"['spaghetti', 'pancetta', 'eggs', 'pecorino', 'black pepper']",54,Medium,426,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.8052560862988503
+332,Rice with Nori,Japanese,Breakfast,"['rice', 'nori', 'sesame seeds']",22,Easy,319,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.176998308552318
+333,Prosciutto e Melone,Italian,Appetizer,"['prosciutto', 'melon']",51,Easy,201,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.6275060549009748
+334,Paneer Tikka,Indian,Appetizer,"['paneer', 'yogurt', 'spices', 'bell peppers']",43,Medium,268,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy']",3.3996629250947286
+335,Whole Fish with Chili,Thai,Dinner,"['fish', 'chili', 'garlic', 'lime', 'fish sauce']",53,Medium,595,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.0163565087320965
+336,Ondeh Ondeh,Malaysian,Dessert,"['glutinous rice flour', 'palm sugar', 'coconut', 'pandan']",53,Easy,325,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",4.2893498324143025
+337,Masala Dosa,Indian,Breakfast,"['rice', 'lentils', 'potato', 'turmeric', 'curry leaves']",40,Medium,324,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",1.3676204851414906
+338,Kimchi,Korean,Appetizer,"['napa cabbage', 'radish', 'gochugaru', 'garlic']",31,Medium,233,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",3.3809248102383203
+339,Tamagoyaki,Japanese,Breakfast,"['eggs', 'mirin', 'soy sauce', 'sugar']",39,Easy,292,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",1.045737523850414
+340,Kimchi Fried Rice,Korean,Breakfast,"['rice', 'kimchi', 'egg', 'green onion']",44,Easy,253,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'fermented']",3.380528765179361
+341,Kung Pao Chicken,Chinese,Lunch,"['chicken', 'peanuts', 'chili', 'soy sauce', 'rice wine']",30,Easy,446,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",1.5215006995806966
+342,Kulfi,Indian,Dessert,"['milk', 'sugar', 'cardamom', 'pistachios']",48,Medium,380,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",1.358378592506941
+343,Yakgwa (Honey Cookies),Korean,Dessert,"['wheat flour', 'honey', 'sesame oil']",49,Medium,330,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'umami', 'sweet']",4.211184097594323
+344,Gulab Jamun,Indian,Dessert,"['milk powder', 'sugar syrup', 'cardamom']",32,Easy,374,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",4.475009406579874
+345,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",38,Easy,329,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.001420595009863
+346,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",21,Easy,230,"['dairy-free', 'gluten-free', 'halal']",['savory'],2.085125805529512
+347,Teh Tarik Set,Malaysian,Breakfast,"['condensed milk', 'tea', 'bread', 'egg']",36,Medium,261,"['vegetarian', 'halal']",['savory'],3.0341613285723903
+348,Whole Steamed Fish,Chinese,Dinner,"['fish', 'ginger', 'soy sauce', 'scallions']",56,Hard,561,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.6280210023633308
+349,Whole Fish with Chili,Thai,Dinner,"['fish', 'chili', 'garlic', 'lime', 'fish sauce']",44,Hard,576,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.571386386660688
+350,Idli Sambar,Indian,Breakfast,"['rice', 'lentils', 'vegetables', 'tamarind']",58,Hard,253,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",1.8270290986440374
+351,Dhokla,Indian,Appetizer,"['gram flour', 'yogurt', 'mustard seeds']",46,Easy,210,"['vegetarian', 'halal']","['savory', 'spicy']",4.358090039480869
+352,Idli Sambar,Indian,Breakfast,"['rice', 'lentils', 'vegetables', 'tamarind']",54,Easy,254,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.067450452017918
+353,Deviled Eggs,American,Appetizer,"['eggs', 'mayonnaise', 'mustard', 'paprika']",29,Medium,282,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],3.84807651190664
+354,Pad Thai,Thai,Lunch,"['rice noodles', 'shrimp', 'tofu', 'bean sprouts', 'tamarind', 'palm sugar']",31,Hard,457,"['dairy-free', 'gluten-free', 'halal']","['savory', 'sour', 'sweet']",1.8902168495168286
+355,Philly Cheesesteak,American,Lunch,"['beef', 'cheese', 'onions', 'hoagie roll']",45,Medium,459,"['gluten-free', 'halal']","['savory', 'cheesy']",3.880803653982207
+356,Gyeran Bbang (Egg Bread),Korean,Appetizer,"['bread dough', 'egg', 'sugar']",25,Hard,287,"['vegetarian', 'vegan', 'dairy-free', 'halal']","['savory', 'sweet']",4.06063948961045
+357,Risotto Milanese,Italian,Lunch,"['arborio rice', 'saffron', 'parmesan', 'white wine', 'onion']",51,Hard,471,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],2.854315812286541
+358,Kaya Toast,Malaysian,Breakfast,"['bread', 'kaya', 'butter', 'coconut', 'egg']",40,Medium,277,"['vegetarian', 'halal']",['savory'],3.8505375652252107
+359,Cheesecake,American,Dessert,"['cream cheese', 'graham crackers', 'sugar']",43,Medium,361,['gluten-free'],"['savory', 'creamy', 'cheesy', 'sweet']",2.5363494970462868
+360,Gulab Jamun,Indian,Dessert,"['milk powder', 'sugar syrup', 'cardamom']",32,Medium,308,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",3.505811398646117
+361,Fried Rice,Chinese,Lunch,"['rice', 'eggs', 'scallions', 'soy sauce']",56,Medium,474,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.814953935448866
+362,Teh Tarik Set,Malaysian,Breakfast,"['condensed milk', 'tea', 'bread', 'egg']",43,Easy,333,"['vegetarian', 'halal']",['savory'],3.6679861717847797
+363,Sukiyaki,Japanese,Dinner,"['beef', 'tofu', 'vegetables', 'sukiyaki sauce']",20,Hard,554,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.149230318134343
+364,Rasmalai,Indian,Dessert,"['paneer', 'milk', 'sugar', 'cardamom']",36,Medium,388,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",2.316834107847593
+365,Korean Pancakes (Jeon),Korean,Appetizer,"['flour', 'vegetables', 'seafood', 'dipping sauce']",21,Hard,296,"['dairy-free', 'halal']",['savory'],3.7546171130173804
+366,Dorayaki,Japanese,Dessert,"['pancake', 'red bean paste', 'honey']",23,Medium,375,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",1.095947190072704
+367,Kung Pao Chicken,Chinese,Lunch,"['chicken', 'peanuts', 'chili', 'soy sauce', 'rice wine']",21,Medium,490,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'spicy']",3.0267585083840367
+368,Khao Tom,Thai,Breakfast,"['rice', 'pork', 'ginger', 'fish sauce', 'scallions']",23,Easy,296,"['dairy-free', 'gluten-free']",['savory'],2.916433093433471
+369,Kaya Toast,Malaysian,Breakfast,"['bread', 'kaya', 'butter', 'coconut', 'egg']",50,Easy,340,"['vegetarian', 'halal']",['savory'],3.7127904985994946
+370,Spaghetti Carbonara,Italian,Lunch,"['spaghetti', 'pancetta', 'eggs', 'pecorino', 'black pepper']",46,Medium,450,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],2.558265095573035
+371,Whole Steamed Fish,Chinese,Dinner,"['fish', 'ginger', 'soy sauce', 'scallions']",58,Medium,561,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.139775932949633
+372,Pancakes,American,Breakfast,"['flour', 'eggs', 'milk', 'maple syrup']",41,Medium,266,"['vegetarian', 'halal']","['savory', 'sweet']",3.7068691549515824
+373,Chicken Biryani,Indian,Lunch,"['basmati rice', 'chicken', 'saffron', 'yogurt', 'spices']",37,Medium,430,"['gluten-free', 'halal']","['savory', 'spicy']",1.348303566375069
+374,Dim Sum,Malaysian,Breakfast,"['flour', 'pork', 'shrimp', 'soy sauce']",33,Medium,325,['dairy-free'],"['savory', 'umami']",1.770182558493834
+375,Edamame,Japanese,Appetizer,"['young soybeans', 'salt']",45,Medium,261,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",2.401272551696469
+376,Whole Fish with Chili,Thai,Dinner,"['fish', 'chili', 'garlic', 'lime', 'fish sauce']",29,Hard,598,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",2.88294231603421
+377,Cornetti,Italian,Breakfast,"['flour', 'butter', 'sugar', 'jam']",39,Medium,290,"['vegetarian', 'halal']","['savory', 'sweet']",4.894727555596351
+378,Kerabu Mango Salad,Malaysian,Appetizer,"['green mango', 'chili', 'peanuts', 'lime juice']",42,Easy,202,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'spicy']",4.651446442706863
+379,Bulgogi,Korean,Lunch,"['beef', 'soy sauce', 'sugar', 'sesame oil']",34,Medium,471,"['dairy-free', 'gluten-free', 'halal']","['savory', 'umami', 'sweet']",3.417760925730415
+380,Dhokla,Indian,Appetizer,"['gram flour', 'yogurt', 'mustard seeds']",36,Medium,280,"['vegetarian', 'halal']","['savory', 'spicy']",3.483499355426164
+381,Kulfi,Indian,Dessert,"['milk', 'sugar', 'cardamom', 'pistachios']",32,Medium,334,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",2.9465212259984868
+382,Ayam Percik,Malaysian,Dinner,"['chicken', 'coconut milk', 'turmeric', 'lemongrass', 'galangal']",22,Hard,552,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy']",3.579956461792134
+383,Cappuccino e Brioche,Italian,Breakfast,"['coffee', 'milk', 'brioche', 'sugar']",52,Easy,329,"['vegetarian', 'gluten-free', 'halal']","['savory', 'sweet']",1.8226467276071543
+384,Massaman Curry,Thai,Dinner,"['beef', 'potatoes', 'massaman paste', 'coconut milk', 'peanuts']",43,Hard,580,"['gluten-free', 'halal']","['savory', 'spicy', 'creamy', 'sweet']",1.249642234123435
+385,Cappuccino e Brioche,Italian,Breakfast,"['coffee', 'milk', 'brioche', 'sugar']",45,Easy,315,"['vegetarian', 'gluten-free', 'halal']","['savory', 'sweet']",1.752907352311062
+386,Kimchi Jjigae (Kimchi Stew),Korean,Dinner,"['kimchi', 'tofu', 'pork', 'scallions']",60,Medium,532,"['dairy-free', 'gluten-free']","['savory', 'spicy', 'fermented']",1.5431029821832012
+387,Kulfi,Indian,Dessert,"['milk', 'sugar', 'cardamom', 'pistachios']",49,Medium,360,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",1.0297199659925251
+388,Hokkien Mee,Malaysian,Lunch,"['yellow noodles', 'rice noodles', 'prawns', 'pork', 'dark soy sauce']",49,Medium,497,"['dairy-free', 'gluten-free']",['savory'],3.761989059450123
+389,Paneer Tikka,Indian,Appetizer,"['paneer', 'yogurt', 'spices', 'bell peppers']",46,Easy,201,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy']",2.8754752413640845
+390,Popiah,Malaysian,Appetizer,"['spring roll skin', 'vegetables', 'shrimp', 'peanut sauce']",45,Medium,292,"['dairy-free', 'gluten-free', 'halal']",['savory'],2.0417725462143945
+391,Prawn Crackers,Malaysian,Appetizer,"['prawns', 'tapioca flour', 'chili sauce']",41,Easy,260,"['dairy-free', 'halal']",['savory'],2.123887725925955
+392,Miso Soup,Japanese,Breakfast,"['miso paste', 'tofu', 'wakame', 'scallions']",37,Easy,306,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",4.197488025647069
+393,Lasagna Bolognese,Italian,Dinner,"['pasta sheets', 'bolognese sauce', 'bechamel', 'parmesan']",42,Hard,529,['dairy-free'],['savory'],4.3673321409546055
+394,Lasagna Bolognese,Italian,Dinner,"['pasta sheets', 'bolognese sauce', 'bechamel', 'parmesan']",38,Medium,541,['dairy-free'],['savory'],4.481110943398903
+395,Osso Buco,Italian,Dinner,"['veal shanks', 'white wine', 'tomato', 'onion', 'carrot']",21,Hard,566,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']",['savory'],1.9671878735516501
+396,Spinach Artichoke Dip,American,Appetizer,"['spinach', 'artichokes', 'cream cheese', 'parmesan']",32,Medium,271,"['vegetarian', 'gluten-free', 'halal']","['savory', 'creamy', 'cheesy']",3.7419982089383064
+397,Tom Yum Goong,Thai,Lunch,"['prawns', 'lemongrass', 'lime leaves', 'chili', 'lime juice']",32,Easy,442,"['dairy-free', 'gluten-free', 'halal']","['savory', 'spicy', 'sour']",3.552331540637914
+398,Xiaolongbao,Chinese,Breakfast,"['flour', 'pork', 'soup', 'ginger']",28,Easy,261,['dairy-free'],"['savory', 'umami']",3.5551220313740894
+399,Dorayaki,Japanese,Dessert,"['pancake', 'red bean paste', 'honey']",57,Medium,355,"['vegetarian', 'vegan', 'dairy-free', 'gluten-free', 'halal']","['savory', 'umami']",3.441207539815737
+400,Gulab Jamun,Indian,Dessert,"['milk powder', 'sugar syrup', 'cardamom']",56,Hard,362,"['vegetarian', 'gluten-free', 'halal']","['savory', 'spicy', 'sweet']",1.281649308542745
