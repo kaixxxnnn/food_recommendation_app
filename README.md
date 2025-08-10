@@ -47,14 +47,14 @@ A smart food recommendation system that helps users discover dishes based on the
 #### Web App
 
 ```bash
-python scripts\streamlit_app.py
+python scripts/streamlit_app.py
 ```
 Visit `http://localhost:5000` in your browser.
 
 #### Terminal
 
 ```bash
-python scripts\main.py
+python scripts/main.py
 ```
 
 ## Contributing
